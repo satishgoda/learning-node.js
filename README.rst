@@ -1,7 +1,7 @@
 .. contents::
   :backlinks: top
   
-  About
-  =====
+About
+=====
   
-  Documentation related to my exploration of Node.js (https://nodejs.org/en/)
+* Documentation related to my exploration of Node.js (https://nodejs.org/en/)
