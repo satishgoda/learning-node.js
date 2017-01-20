@@ -24,6 +24,7 @@ function start (response)
     response.write(body);
     response.end();
 }
+
 function upload (response, request)
 {
     console.log("Request handler 'upload' was called.");
@@ -54,6 +55,7 @@ function upload (response, request)
     
     form.parse(request, form_processor);
 }
+
 function show (response)
 {
     console.log("Request handler 'show' was called.");
@@ -62,6 +64,7 @@ function show (response)
     
     fs.createReadStream("/tmp/test.png").pipe(response);
 }
+
 
 exports.start = start;
 exports.upload = upload;
